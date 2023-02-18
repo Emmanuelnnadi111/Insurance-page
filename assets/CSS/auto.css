@@ -169,7 +169,7 @@ li {
 }
 
 .thank-bg {
-    background-image: url(../images/thank-you.jpg);
+    background-image: url(/images/thank-you.jpg);
     padding: 10px;
     background-position: center;
 }
