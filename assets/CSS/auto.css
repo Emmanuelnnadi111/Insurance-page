@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.my-max-width {
+    max-width: 900px;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.head {
+    background: purple;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+ ul {
+    display: flex;
+    
+}
+
+li {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    list-style: none;
+}
+
+.col-1 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    color: rgb(185, 22, 185);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.insurance-bg {
+    background: black;
+}
+
+.insurance-bg > p {
+    margin-top: 60px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.col-2 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+
+.side-bar {
+    background: rgb(90, 3, 124);
+}
+
+.side-bar >p {
+    text-align: center;
+    color: white;
+}
+
+.reg-links {
+    color: white;
+    text-decoration: none;
+}
+
+
+.reg {
+    border: 2px solid blue;
+    border-radius: 4px;
+    background: black;
+    text-align: center;
+    color: rgb(74, 140, 240);
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.life {
+    border: 2px solid rgb(238, 238, 245);
+    border-radius: 4px;
+    background: rgb(96, 5, 170);
+    text-align: center;
+    color: rgb(237, 238, 240);
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.med {
+    border: 2px solid rgb(238, 238, 245);
+    border-radius: 4px;
+    background: rgb(96, 5, 170);
+    text-align: center;
+    color: rgb(237, 238, 240);
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.prop {
+    border: 2px solid rgb(238, 238, 245);
+    border-radius: 4px;
+    background: rgb(96, 5, 170);
+    text-align: center;
+    color: rgb(237, 238, 240);
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.car-insu {
+    border: 2px solid rgb(238, 238, 245);
+    border-radius: 4px;
+    background: rgb(96, 5, 170);
+    text-align: center;
+    color: rgb(237, 238, 240);
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.verification {
+    border: 2px solid rgb(238, 238, 245);
+    border-radius: 4px;
+    background: rgb(96, 5, 170);
+    text-align: center;
+    color: rgb(237, 238, 240);
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.side-bar-2 {
+    background: rgb(90, 3, 124);
+    height: 150px;
+}
+
+.side-bar-2 > p {
+    color: white;
+    text-align: center;
+}
+
+.side-bar-3 {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+.thank-bg {
+    background-image: url(../images/thank-you.jpg);
+    padding: 10px;
+    background-position: center;
+}
+
+.side-bar-4 {
+    background: white;
+    color: rgb(29, 26, 26);
+    text-align: center;
+    position: relative;
+    bottom: 10em;
+}
+
+footer {
+    background: purple;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(230, 222, 222);
+    padding: 10px;
+}
