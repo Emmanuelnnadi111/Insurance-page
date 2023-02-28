@@ -189,3 +189,282 @@ footer {
     color: rgb(230, 222, 222);
     padding: 10px;
 }
+
+/* END OF HOME HTML */
+
+.insu-head {
+    margin: 0 auto;
+}
+
+
+.insurance-head {
+    background-color: violet;
+    margin: auto 0;
+}
+
+.insu-header {
+    text-align: center;
+    color: rgb(175, 136, 8);
+}
+
+.info {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-style: italic;
+    width: 10rem;
+    margin: 0 auto;
+}
+
+.wrap {
+    margin: 0 auto;
+    background: purple; 
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.wrap-1 {
+    display: grid;
+    grid-template-columns: 0.9fr 1.5fr;
+    margin: 0 auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.images {
+    display: grid;
+    gap: 10px;
+}
+
+.details {
+    color: white;
+}
+
+.flex-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.flex-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.span {
+    color: black;
+}
+
+.span-2 {
+    color: black;
+    position: relative;
+    left: 4rem;
+}
+
+
+.section-header {
+    text-align: center;
+    color: white;
+}
+
+.section-header-2 {
+    text-align: center;
+    color: rgb(197, 197, 7);
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+
+.forms {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+
+input {
+    height: 20px;
+    width: 300px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    position: relative;
+    left: 3em;
+}
+
+
+button {
+    position: relative;
+    left: 15em;
+}
+
+/* END OF INSURANCE SERVICE */
+
+.reg-header {
+    background: purple;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    justify-content: space-between;
+}
+
+.head-image-1 {
+    width: 260px;
+    height: 100px; 
+}
+
+.head-image {
+    width: 100%;
+    height: 100px;
+}
+
+
+h1 {
+    font-size: 1.9rem;
+    color: #000;
+}
+
+.div-wrap {
+    background: yellow;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.aside-1 {
+    display: grid;
+    width: 100%;
+}
+
+.blue-bg {
+    background: rgb(122, 4, 122);
+    text-align: center;
+    border: 1px solid white;
+    padding: 0;
+}
+
+.first-writeup {
+    color: rgb(9, 177, 9);
+    font-size: 3rem;
+}
+
+.second-writeup {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.white-bg {
+    background: #fff;
+    text-align: center;
+}
+
+.third-writeup {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.fourth-writeup {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+}
+
+.second-white-bg {
+    background: #fff;
+    text-align: center;
+}
+
+.fast {
+    color: #000;
+    font-size: 2rem;
+    padding: 0;
+}
+
+.aside-2 {
+    padding: 0px;
+    margin-bottom: 90px;
+}
+
+.purple-bg {
+    background: rgb(128, 0, 128);
+    margin: 0;
+}
+
+.purple-bg > p {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.form-1 {
+    display: flex;
+    padding: 0.5em;
+}
+
+.form-2 {
+    display: flex;
+    padding: 0.5em;
+    margin-left: 0.5em;
+}
+
+.orange-bg {
+    background: rgb(245, 183, 68);
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    width: 67%;
+    margin-right: 70px;
+    padding: 10px;
+}
+
+.register {
+    background: rgb(7, 7, 199);
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 1em;
+    padding-bottom: 2em;
+    width: 40%;
+    color: #fff;
+    margin-bottom: 3em;
+}
+
+.aside-3 {
+    margin: 0;
+}
+
+.violet-bg {
+    background: purple;
+    margin: 0;
+    padding: 2em;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.aside-image {
+    width: 100%;
+}
+
+a :hover {
+    color: red;
+    border: 2px solid white;
+    padding: 0.5em;
+}
