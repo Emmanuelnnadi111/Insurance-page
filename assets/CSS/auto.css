@@ -468,3 +468,243 @@ a :hover {
     border: 2px solid white;
     padding: 0.5em;
 }
+
+/* End of Registration Form */
+
+.mylife-max-width {
+    max-width: 1200px;
+}
+
+
+.life-header {
+    margin: 0 auto;
+}
+
+.life-h1 {
+    background: rgb(167, 22, 22);
+    color: #fff;
+}
+
+.insu-form-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.insu-form-first {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 100%;
+}
+
+.insu-form-second {
+    display: pgrid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+}
+
+.personal-details-div {
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(255, 0, 0);
+    width: 70%;
+}
+
+.personal-details {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+
+.insu-form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.process {
+    padding: 10px;
+    width: 50%;
+    border-radius: 3px;
+}
+
+.insu-form-aside-2 {
+    background: rgb(128, 0, 128);
+}
+
+
+.insu-form-aside-2 > p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.insu-form-aside-wrap {
+    display: grid;
+    grid-template-columns: 2fr 0.89fr 1fr 1fr 1fr;
+}
+
+.insu-form-para {
+    color: #fff;
+    padding: 10px;
+}
+
+.insu-form-l-p {
+    color: #fff;
+}
+
+.color {
+    color: #000;
+}
+
+/* END OF LIFE INSURANCE */
+
+.car-insurance-form-header {
+    background: #000;
+    display: flex;
+    gap: 13em;
+}
+
+.car-head {
+    color: rgb(231, 228, 6);
+    font-size: 2em;
+    padding: 10px;
+}
+
+.car-form {
+    color: rgb(175, 175, 7);
+    font-size: 2em;
+    padding: 10px;
+}
+
+.car-image {
+    height: 100%;
+    width: 300px;
+}
+
+.details {
+    background: rgb(238, 180, 21);
+    margin: 0;
+    padding: 3px;
+    color: #000;
+    padding-left: 10px;
+}
+
+.first-row {
+    background: rgb(238, 229, 103);
+    display: flex;
+}
+
+.first-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.second-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bg {
+    background: #fff;
+    padding: 0.5em;
+}
+
+.about-you {
+    background: rgb(255, 165, 0);
+    padding-left: 1em;
+    padding: 0.5em;
+}
+
+.general-form {
+    background: rgb(255, 165, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+}
+
+.general-form-1 {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    margin-bottom: 0;
+}
+
+.general-form-2 {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    margin-bottom: 0;
+}
+
+.email-paragraph {
+    width: 45%;
+    background: rgb(255, 165, 0);
+    border: 2px solid rgb(173, 255, 47);
+    position: relative;
+    left: 42em;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.general-form-3 {
+    background: rgb(255, 165, 0);
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+}
+
+.general-form-4 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+}
+
+/* END OF CAR INSURANCE FORM */
+
+.verification-container {
+    background: rgb(128, 0, 128);
+    margin: 0 auto;
+    border: 10px solid rgb(196, 184, 184);
+    border-radius: 10px;
+}
+
+.information {
+    color: rgb(255, 165, 0);
+    position: relative;
+    top: 1em;
+    font-size: 1.5rem;
+    left: 8em;
+}
+
+.verify-form {
+    border: 1px solid rgb(0, 128, 0);
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+.verify-form-1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.verify-form-1 > input {
+    width: 90%;
+    padding: 1.5em;
+}
+
+.butt {
+    margin-top: 4em;
+    margin-bottom: 5em;
+    width: 15%;
+    padding: 0.5em;
+    left: 10em;
+}
